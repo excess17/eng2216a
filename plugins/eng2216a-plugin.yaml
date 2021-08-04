@@ -1,0 +1,7 @@
+image: excess17/eng-2216-a:0.0.1-SNAPSHOT
+dbms: postgresql
+healthCheckPath: "/management/health"
+roles:
+  - "eng2216a-admin"
+  - "point-2-d-admin"
+# entando-needle-descriptor-add-roles - Entando blueprint will add roles here

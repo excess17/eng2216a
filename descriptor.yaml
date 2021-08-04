@@ -1,0 +1,13 @@
+code: eng2216a-bundle
+description: This is the eng2216a bundle
+
+components:
+  plugins:
+    - plugins/eng2216a-plugin.yaml
+
+  widgets:
+    - ui/widgets/point-2-d/tableWidget/point-2-d-table-widget-descriptor.yaml
+    - ui/widgets/point-2-d/detailsWidget/point-2-d-details-widget-descriptor.yaml
+    - ui/widgets/point-2-d/formWidget/point-2-d-form-widget-descriptor.yaml
+# entando-needle-descriptor-add-widgets - Entando blueprint will add widget bundle files here
+
